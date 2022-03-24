@@ -36,7 +36,6 @@
                     $postType        = 'oferta';
                     $current_term_id = get_queried_object()->term_id;
                     $terms           = get_terms(['taxonomy' => $taxonomy, 'orderby' => 'term_id', 'parent' => 0, 'hide_empty' => false]);
-                    $i               = 0;
                     $term_link = get_term_link( 'tax_name' );
                     ?>
 
