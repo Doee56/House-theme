@@ -1,0 +1,23 @@
+$primary-font-color : #110229;
+$hover-font-color : #1DAEFF;
+
+.scrolled{
+    background: #8F90A6;
+}
+
+#menu-primary li a{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 3.6rem;
+    margin-right: 3rem;
+    margin-left: 3rem;
+    color:$primary-font-color;
+    &:hover
+  {
+      text-decoration: none;
+      color:$hover-font-color;
+      transition: 0.3s ease-in;
+  }
+  
+}

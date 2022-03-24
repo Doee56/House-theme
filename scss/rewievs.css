@@ -1,0 +1,26 @@
+.swiper {
+  width: 100%;
+  height: 100%;
+  padding-bottom: 5rem;
+}
+
+.swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal {
+  bottom: -1px;
+}
+
+.swiper-slide {
+  font-size: 18px;
+  background: #fff;
+  text-align: center;
+  display: -ms-grid;
+  display: grid;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+/*# sourceMappingURL=rewievs.css.map */

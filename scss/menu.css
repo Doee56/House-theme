@@ -1,0 +1,21 @@
+.scrolled {
+  background: #8F90A6;
+}
+
+#menu-primary li a {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 3.6rem;
+  margin-right: 3rem;
+  margin-left: 3rem;
+  color: #110229;
+}
+
+#menu-primary li a:hover {
+  text-decoration: none;
+  color: #1DAEFF;
+  -webkit-transition: 0.3s ease-in;
+  transition: 0.3s ease-in;
+}
+/*# sourceMappingURL=menu.css.map */
