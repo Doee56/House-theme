@@ -50,9 +50,6 @@ $post_query = new WP_Query(array(
      $post_query->the_post();
      $postType      = 'oferta';
      $taxonomy      = 'typproduktu';
-     $terms       = get_the_terms($post->ID, 'typproduktu');
-     $termsArray  = get_the_terms($post->ID, "typproduktu");
-     $termsString = "";
      foreach ($termsArray as $term) { // for each term
       $termsString .= $term->slug . ' '; //create a string that has all the slugs
      }
